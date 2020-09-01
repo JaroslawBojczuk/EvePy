@@ -24,7 +24,7 @@ def print_auth_url(client_id, code_challenge=None):
         "response_type": "code",
         "redirect_uri": "https://localhost/callback/",
         "client_id": client_id,
-        "scope": "esi-characters.read_blueprints.v1",
+        "scope": "esi-characters.read_blueprints.v1 esi-skills.read_skills.v1",
         "state": "unique-state"
     }
 
